@@ -26,6 +26,34 @@ document.getElementById('product').addEventListener('tap', function() {
         }
     });
 });
+document.getElementById('cart').addEventListener('tap', function() {
+    mui.openWindow({
+        url: 'cart.html',
+        id: 'cart',
+        show: {
+            autoShow: true,
+            aniShow: 'slide-in-right'
+        },
+        waiting: {
+            autoShow: true,
+			title:'正在加载...'
+        }
+    });
+});
+document.getElementById('order').addEventListener('tap', function() {
+    mui.openWindow({
+        url: 'order.html',
+        id: 'order',
+        show: {
+            autoShow: true,
+            aniShow: 'slide-in-right'
+        },
+        waiting: {
+            autoShow: true,
+			title:'正在加载...'
+        }
+    });
+});
 document.getElementById('manage').addEventListener('tap', function() {
     mui.openWindow({
         url: 'manage.html',

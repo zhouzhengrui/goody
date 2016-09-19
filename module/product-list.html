@@ -1,264 +1,296 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="white">
-	<title>产品中心</title>
-	<link rel="stylesheet" href="../css/mui.min.css" />
-	<link rel="stylesheet" href="../css/style.min.css" />
-</head>
-<body>
-	<!-- main start -->
-	<div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable mui-slide-in">
-		<!--side nav start-->
-		<aside id="offCanvasSide" class="mui-off-canvas-right">
-			<div id="offCanvasSideScroll" class="mui-scroll-wrapper">
-				<div class="mui-scroll">
-					<ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
-						<li class="mui-table-view-cell">
-							<a class="mui-navigate-right">全部产品</a>
-						</li>
-						<li class="mui-table-view-cell">
-							<a class="mui-navigate-right">PPR家装管</a>
-						</li>
-						<li class="mui-table-view-cell">
-							<a class="mui-navigate-right">PE-RT地暖管</a>
-						</li>
-						<li class="mui-table-view-cell">
-							<a class="mui-navigate-right">线槽、线槽配件</a>
-						</li>
-						<li class="mui-table-view-cell">
-							<a class="mui-navigate-right">白色穿线管</a>
-						</li>
-						<li class="mui-table-view-cell">
-							<a class="mui-navigate-right">红蓝穿线管</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</aside>
-		<!--side nav over-->
-		<!--wrap start-->
-		<div class="mui-inner-wrap">
-			<!-- header start -->
-			<header class="mui-bar mui-bar-nav">
-				<a class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left"><span class="mui-icon mui-icon-left-nav"></span>返回</a>
-				<a id="offCanvasBtn" href="#offCanvasSide" class="mui-btn mui-btn-link mui-pull-right button">产品分类</a>
-				<h1 class="mui-title">产品中心</h1>
-			</header>
-			<!-- header over -->
-			<!-- list start -->
-			<div id="productList" class="mui-content mui-scroll-wrapper productList">
-				<div class="mui-scroll">
-					<div class="title">所有产品</div>
-					<ul class="mui-table-view">
-						<li class="mui-table-view-cell mui-media">
-							<a href="javascript:;">
-								<img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
-								<div class="mui-media-body">
-									米灰色45°弯头
-									<p class='mui-ellipsis'>Φ20,(0.015kg)</p>
-									<p class='mui-ellipsis'><b class="price">￥88.0/个</b><b class="lineThrough">188.0</b></p>
-								</div>
-							</a>
-							<div class="mui-numbox">
-								<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-								<input class="mui-input-numbox" type="number" />
-								<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-							</div>
-						</li>
-						<li class="mui-table-view-cell mui-media">
-							<a href="javascript:;">
-								<img class="mui-media-object mui-pull-left" src="../img/img02.jpg">
-								<div class="mui-media-body">
-									米灰色等径三通
-									<p class='mui-ellipsis'>Φ20(0.026kg)</p>
-									<p class='mui-ellipsis'><b class="price">￥18.0/个</b><b class="lineThrough">28.0</b></p>
-								</div>
-								<div class="mui-numbox">
-									<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-									<input class="mui-input-numbox" type="number" />
-									<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-								</div>
-							</a>
-						</li>
-						<li class="mui-table-view-cell mui-media">
-							<a href="javascript:;">
-								<img class="mui-media-object mui-pull-left" src="../img/img03.jpg">
-								<div class="mui-media-body">
-									米灰色内螺纹活接
-									<p class='mui-ellipsis'>Φ20×1/2",(0.116kg)</p>
-									<p class='mui-ellipsis'><b class="price">￥10.0/个</b><b class="lineThrough">12.5</b></p>
-								</div>
-							</a>
-							<div class="mui-numbox">
-								<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-								<input class="mui-input-numbox" type="number" />
-								<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-							</div>
-						</li>
-						<li class="mui-table-view-cell mui-media">
-							<a href="product.html">
-								<img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
-								<div class="mui-media-body">
-									米灰色45°弯头
-									<p class='mui-ellipsis'>Φ20,(0.015kg)</p>
-									<p class='mui-ellipsis'><b class="price">￥88.0/个</b><b class="lineThrough">188.0</b></p>
-								</div>
-							</a>
-							<div class="mui-numbox">
-								<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-								<input class="mui-input-numbox" type="number" />
-								<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-							</div>
-						</li>
-						<li class="mui-table-view-cell mui-media">
-							<a href="javascript:;">
-								<img class="mui-media-object mui-pull-left" src="../img/img02.jpg">
-								<div class="mui-media-body">
-									米灰色等径三通
-									<p class='mui-ellipsis'>Φ20(0.026kg)</p>
-									<p class='mui-ellipsis'><b class="price">￥18.0/个</b><b class="lineThrough">28.0</b></p>
-								</div>
-								<div class="mui-numbox">
-									<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-									<input class="mui-input-numbox" type="number" />
-									<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-								</div>
-							</a>
-						</li>
-						<li class="mui-table-view-cell mui-media">
-							<a href="javascript:;">
-								<img class="mui-media-object mui-pull-left" src="../img/img03.jpg">
-								<div class="mui-media-body">
-									米灰色内螺纹活接
-									<p class='mui-ellipsis'>Φ20×1/2",(0.116kg)</p>
-									<p class='mui-ellipsis'><b class="price">￥10.0/个</b><b class="lineThrough">12.5</b></p>
-								</div>
-							</a>
-							<div class="mui-numbox">
-								<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-								<input class="mui-input-numbox" type="number" />
-								<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-							</div>
-						</li>
-						<li class="mui-table-view-cell mui-media">
-							<a href="product.html">
-								<img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
-								<div class="mui-media-body">
-									米灰色45°弯头
-									<p class='mui-ellipsis'>Φ20,(0.015kg)</p>
-									<p class='mui-ellipsis'><b class="price">￥88.0/个</b><b class="lineThrough">188.0</b></p>
-								</div>
-							</a>
-							<div class="mui-numbox">
-								<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-								<input class="mui-input-numbox" type="number" />
-								<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-							</div>
-						</li>
-						<li class="mui-table-view-cell mui-media">
-							<a href="javascript:;">
-								<img class="mui-media-object mui-pull-left" src="../img/img02.jpg">
-								<div class="mui-media-body">
-									米灰色等径三通
-									<p class='mui-ellipsis'>Φ20(0.026kg)</p>
-									<p class='mui-ellipsis'><b class="price">￥18.0/个</b><b class="lineThrough">28.0</b></p>
-								</div>
-								<div class="mui-numbox">
-									<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-									<input class="mui-input-numbox" type="number" />
-									<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-								</div>
-							</a>
-						</li>
-						<li class="mui-table-view-cell mui-media">
-							<a href="javascript:;">
-								<img class="mui-media-object mui-pull-left" src="../img/img03.jpg">
-								<div class="mui-media-body">
-									米灰色内螺纹活接
-									<p class='mui-ellipsis'>Φ20×1/2",(0.116kg)</p>
-									<p class='mui-ellipsis'><b class="price">￥10.0/个</b><b class="lineThrough">12.5</b></p>
-								</div>
-							</a>
-							<div class="mui-numbox">
-								<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-								<input class="mui-input-numbox" type="number" />
-								<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- list over -->
-			<!-- off-canvas backdrop -->
-			<div class="mui-off-canvas-backdrop"></div>
-		</div>
-		<!--wrap over-->
-	</div>
-	<!-- main over -->
-	<script src="../js/mui/mui.min.js"></script>
-	<script src="../js/tabbar.js"></script>
-	<script>
-		mui.init({
-			swipeBack: false,
-			pullRefresh: {
-				container: '#productList',
-				down: {
-					callback: pulldownRefresh
-				},
-				up: {
-					contentrefresh: '正在加载...',
-					callback: pullupRefresh
-				}
-			}
-		});
-		//侧滑容器父节点
-		var offCanvasWrapper = mui('#offCanvasWrapper');
-		//主界面容器
-		var offCanvasInner = offCanvasWrapper[0].querySelector('.mui-inner-wrap');
-		//菜单容器
-		var offCanvasSide = document.getElementById("offCanvasSide");
-		//主界面和侧滑菜单界面均支持区域滚动；
-		mui('#offCanvasSideScroll').scroll();
-		mui('#productList').scroll();
-		//移动效果是否为整体移动
-		var moveTogether = false;
-		//实现ios平台的侧滑关闭页面；
-		if (mui.os.plus && mui.os.ios) {
-			offCanvasWrapper[0].addEventListener('shown', function(e) { //菜单显示完成事件
-				plus.webview.currentWebview().setStyle({
-					'popGesture': 'none'
-				});
-			});
-			offCanvasWrapper[0].addEventListener('hidden', function(e) { //菜单关闭完成事件
-				plus.webview.currentWebview().setStyle({
-					'popGesture': 'close'
-				});
-			});
-		};
-		// 下拉刷新具体业务实现
-		function pulldownRefresh() {
-			setTimeout(function() {
-				mui('#productList').pullRefresh().endPulldownToRefresh();
-			}, 1500);
-		}
-		// 上拉加载只保留了样式, 具体功能怎么实现不懂, 比如进入页面显示多少条数据, 上拉后加载多少条数据. 整合的时候研究下MUI的demo
-		// 上拉加载具体业务实现
-		function pullupRefresh() {
-			setTimeout(function() {
-				mui('#productList').pullRefresh().endPullupToRefresh();
-			}, 1500);
-		}
-		// 下面这段是静态页面演示用的, 整合时删除
-		mui(".productList").on('tap', 'li > a', function() {
-			mui.openWindow({
-				url: '../product-page.html'
-			});
-		});
-	</script>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="white">
+        <title>产品中心</title>
+        <link rel="stylesheet" href="../css/mui.min.css" />
+        <link rel="stylesheet" href="../css/style.min.css" /> </head>
+    <body>
+        <!-- main start -->
+        <div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable mui-slide-in">
+            <!--side nav start-->
+            <aside id="offCanvasSide" class="mui-off-canvas-right">
+                <div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+                        <ul class="mui-table-view mui-table-view-chevron mui-table-view-inverted">
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">全部产品</a>
+                            </li>
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">PPR家装管</a>
+                            </li>
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">PE-RT地暖管</a>
+                            </li>
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">线槽、线槽配件</a>
+                            </li>
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">白色穿线管</a>
+                            </li>
+                            <li class="mui-table-view-cell">
+                                <a class="mui-navigate-right">红蓝穿线管</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <!--side nav over-->
+            <!--wrap start-->
+            <div class="mui-inner-wrap">
+                <!-- header start -->
+                <header class="mui-bar mui-bar-nav">
+                    <a class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left">
+                        <span class="mui-icon mui-icon-left-nav"></span>返回</a>
+                    <a id="offCanvasBtn" href="#offCanvasSide" class="mui-btn mui-btn-link mui-pull-right button">产品分类</a>
+                    <h1 class="mui-title">产品中心</h1>
+                </header>
+                <!-- header over -->
+                <!-- list start -->
+                <div id="productList" class="mui-content mui-scroll-wrapper productList">
+                    <div class="mui-scroll">
+                        <div class="title">所有产品</div>
+                        <ul class="mui-table-view">
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
+                                    <div class="mui-media-body"> 米灰色45°弯头
+                                        <p class='mui-ellipsis'>Φ20,(0.015kg)</p>
+                                        <p class='mui-ellipsis'>
+                                            <b class="price">￥88.0/个</b>
+                                            <b class="lineThrough">188.0</b>
+                                        </p>
+                                    </div>
+                                </a>
+                                <div class="mui-numbox">
+                                    <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                                    <input class="mui-input-numbox" type="number" />
+                                    <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+                                </div>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <img class="mui-media-object mui-pull-left" src="../img/img02.jpg">
+                                    <div class="mui-media-body"> 米灰色等径三通
+                                        <p class='mui-ellipsis'>Φ20(0.026kg)</p>
+                                        <p class='mui-ellipsis'>
+                                            <b class="price">￥18.0/个</b>
+                                            <b class="lineThrough">28.0</b>
+                                        </p>
+                                    </div>
+                                    <div class="mui-numbox">
+                                        <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                                        <input class="mui-input-numbox" type="number" />
+                                        <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <img class="mui-media-object mui-pull-left" src="../img/img03.jpg">
+                                    <div class="mui-media-body"> 米灰色内螺纹活接
+                                        <p class='mui-ellipsis'>Φ20×1/2",(0.116kg)</p>
+                                        <p class='mui-ellipsis'>
+                                            <b class="price">￥10.0/个</b>
+                                            <b class="lineThrough">12.5</b>
+                                        </p>
+                                    </div>
+                                </a>
+                                <div class="mui-numbox">
+                                    <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                                    <input class="mui-input-numbox" type="number" />
+                                    <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+                                </div>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="product.html">
+                                    <img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
+                                    <div class="mui-media-body"> 米灰色45°弯头
+                                        <p class='mui-ellipsis'>Φ20,(0.015kg)</p>
+                                        <p class='mui-ellipsis'>
+                                            <b class="price">￥88.0/个</b>
+                                            <b class="lineThrough">188.0</b>
+                                        </p>
+                                    </div>
+                                </a>
+                                <div class="mui-numbox">
+                                    <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                                    <input class="mui-input-numbox" type="number" />
+                                    <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+                                </div>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <img class="mui-media-object mui-pull-left" src="../img/img02.jpg">
+                                    <div class="mui-media-body"> 米灰色等径三通
+                                        <p class='mui-ellipsis'>Φ20(0.026kg)</p>
+                                        <p class='mui-ellipsis'>
+                                            <b class="price">￥18.0/个</b>
+                                            <b class="lineThrough">28.0</b>
+                                        </p>
+                                    </div>
+                                    <div class="mui-numbox">
+                                        <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                                        <input class="mui-input-numbox" type="number" />
+                                        <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <img class="mui-media-object mui-pull-left" src="../img/img03.jpg">
+                                    <div class="mui-media-body"> 米灰色内螺纹活接
+                                        <p class='mui-ellipsis'>Φ20×1/2",(0.116kg)</p>
+                                        <p class='mui-ellipsis'>
+                                            <b class="price">￥10.0/个</b>
+                                            <b class="lineThrough">12.5</b>
+                                        </p>
+                                    </div>
+                                </a>
+                                <div class="mui-numbox">
+                                    <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                                    <input class="mui-input-numbox" type="number" />
+                                    <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+                                </div>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="product.html">
+                                    <img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
+                                    <div class="mui-media-body"> 米灰色45°弯头
+                                        <p class='mui-ellipsis'>Φ20,(0.015kg)</p>
+                                        <p class='mui-ellipsis'>
+                                            <b class="price">￥88.0/个</b>
+                                            <b class="lineThrough">188.0</b>
+                                        </p>
+                                    </div>
+                                </a>
+                                <div class="mui-numbox">
+                                    <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                                    <input class="mui-input-numbox" type="number" />
+                                    <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+                                </div>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <img class="mui-media-object mui-pull-left" src="../img/img02.jpg">
+                                    <div class="mui-media-body"> 米灰色等径三通
+                                        <p class='mui-ellipsis'>Φ20(0.026kg)</p>
+                                        <p class='mui-ellipsis'>
+                                            <b class="price">￥18.0/个</b>
+                                            <b class="lineThrough">28.0</b>
+                                        </p>
+                                    </div>
+                                    <div class="mui-numbox">
+                                        <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                                        <input class="mui-input-numbox" type="number" />
+                                        <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mui-table-view-cell mui-media">
+                                <a href="javascript:;">
+                                    <img class="mui-media-object mui-pull-left" src="../img/img03.jpg">
+                                    <div class="mui-media-body"> 米灰色内螺纹活接
+                                        <p class='mui-ellipsis'>Φ20×1/2",(0.116kg)</p>
+                                        <p class='mui-ellipsis'>
+                                            <b class="price">￥10.0/个</b>
+                                            <b class="lineThrough">12.5</b>
+                                        </p>
+                                    </div>
+                                </a>
+                                <div class="mui-numbox">
+                                    <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+                                    <input class="mui-input-numbox" type="number" />
+                                    <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- list over -->
+                <!-- off-canvas backdrop -->
+                <div class="mui-off-canvas-backdrop"></div>
+            </div>
+            <!--wrap over-->
+        </div>
+        <!-- main over -->
+        <script src="../js/mui/mui.min.js"></script>
+        <script src="../js/tabbar.js"></script>
+        <script>
+            mui.init(
+            {
+                swipeBack: false,
+                pullRefresh:
+                {
+                    container: '#productList',
+                    down:
+                    {
+                        callback: pulldownRefresh
+                    },
+                    up:
+                    {
+                        contentrefresh: '正在加载...',
+                        callback: pullupRefresh
+                    }
+                }
+            });
+            //侧滑容器父节点
+            var offCanvasWrapper = mui('#offCanvasWrapper');
+            //主界面容器
+            var offCanvasInner = offCanvasWrapper[0].querySelector('.mui-inner-wrap');
+            //菜单容器
+            var offCanvasSide = document.getElementById("offCanvasSide");
+            //主界面和侧滑菜单界面均支持区域滚动；
+            mui('#offCanvasSideScroll').scroll();
+            mui('#productList').scroll();
+            //移动效果是否为整体移动
+            var moveTogether = false;
+            //实现ios平台的侧滑关闭页面；
+            if (mui.os.plus && mui.os.ios)
+            {
+                offCanvasWrapper[0].addEventListener('shown', function(e)
+                { //菜单显示完成事件
+                    plus.webview.currentWebview().setStyle(
+                    {
+                        'popGesture': 'none'
+                    });
+                });
+                offCanvasWrapper[0].addEventListener('hidden', function(e)
+                { //菜单关闭完成事件
+                    plus.webview.currentWebview().setStyle(
+                    {
+                        'popGesture': 'close'
+                    });
+                });
+            };
+            // 下拉刷新具体业务实现
+            function pulldownRefresh()
+            {
+                setTimeout(function()
+                {
+                    mui('#productList').pullRefresh().endPulldownToRefresh();
+                }, 1500);
+            }
+            // 上拉加载只保留了样式, 具体功能怎么实现不懂, 比如进入页面显示多少条数据, 上拉后加载多少条数据. 整合的时候研究下MUI的demo
+            // 上拉加载具体业务实现
+            function pullupRefresh()
+            {
+                setTimeout(function()
+                {
+                    mui('#productList').pullRefresh().endPullupToRefresh();
+                }, 1500);
+            }
+            // 下面这段是静态页面演示用的, 整合时删除
+            mui(".productList").on('tap', 'li > a', function()
+            {
+                mui.openWindow(
+                {
+                    url: '../product-page.html'
+                });
+            });
+        </script>
+    </body>
 </html>

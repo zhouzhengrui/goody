@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <title>地址管理</title>
+        <link rel="stylesheet" href="css/mui.min.css" />
+        <link rel="stylesheet" href="css/app.css" />
+        <link rel="stylesheet" href="css/style.min.css" /> </head>
+    <body>
+        <!-- header start -->
+        <header class="mui-bar mui-bar-nav">
+            <a class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left">
+                <span class="mui-icon mui-icon-left-nav"></span>返回</a>
+            <h1 class="mui-title">收货地址管理</h1>
+        </header>
+        <!-- header over -->
+        <!-- tabbar start -->
+        <nav class="mui-bar mui-bar-tab">
+            <!-- 按钮当前样式mui-active要控制一下 -->
+            <a class="mui-tab-item tabbar mui-active" id="home">
+                <span class="mui-icon icon-home"></span>
+                <span class="mui-tab-label">首页</span>
+            </a>
+            <a class="mui-tab-item tabbar" id="product">
+                <span class="mui-icon icon-cubes"></span>
+                <span class="mui-tab-label">产品中心</span>
+            </a>
+            <a class="mui-tab-item tabbar" id="cart">
+                <span class="mui-icon icon-basket">
+                    <span class="mui-badge">9</span>
+                </span>
+                <span class="mui-tab-label">购物车</span>
+            </a>
+            <a class="mui-tab-item tabbar" id="order">
+                <span class="mui-icon icon-paste"></span>
+                <span class="mui-tab-label">我的订单</span>
+            </a>
+            <a class="mui-tab-item tabbar" id="manage">
+                <span class="mui-icon icon-user"></span>
+                <span class="mui-tab-label">账号管理</span>
+            </a>
+        </nav>
+        <!-- tabbar over -->
+        <!-- main start -->
+        <div class="mui-content">
+            <!-- form start -->
+            <form class="formBox" action="">
+                <ul class="formList">
+                    <li>
+                        <a class="link" href="address-edit.html">
+                            <div class="group high icon-arrow-right">
+                                <label class="title">李先生
+                                    <i>138-8888-8888</i>
+                                    <span class="tag">默认</span>
+                                </label>
+                                <p>
+                                    <small>上海市浦东新区浦建路1480号轮库上海浦建路店轮库上海浦建路店</small>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <label class="group mui-radio" for="radio-1-1">
+                            <p>使用地址</p>
+                            <input name="radio1" type="radio" checked> </label>
+                    </li>
+                </ul>
+                <ul class="formList">
+                    <li>
+                        <a class="link" href="address-edit.html">
+                            <div class="group high icon-arrow-right">
+                                <label class="title">李先生
+                                    <i>138-8888-8888</i>
+                                </label>
+                                <p>
+                                    <small>上海市浦东新区浦建路1480号</small>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <label class="group mui-radio" for="radio-1-1">
+                            <p>使用地址</p>
+                            <input name="radio1" type="radio"> </label>
+                    </li>
+                </ul>
+                <div class="buttonBox">
+                    <button class="button gray" type="button" onclick="location.href='address-edit.html'">新建收货地址</button>
+                    <button class="button" type="button">确定</button>
+                </div>
+            </form>
+            <!-- form over -->
+        </div>
+        <!-- main over -->
+        <script src="js/mui/mui.min.js"></script>
+        <script src="js/tabbar.js"></script>
+    </body>
+</html>

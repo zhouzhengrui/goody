@@ -64,6 +64,58 @@ a:active {
   color: #20a837;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+input, select, textarea {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border-radius: 0;
+  width: 100%;
+}
+
+input {
+  border: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+select {
+  margin-bottom: 0 !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.align-left {
+  text-align: left !important;
+}
+
+.align-right {
+  text-align: right !important;
+}
+
+.align-center {
+  text-align: center !important;
+}
+
 .tabbarPadding {
   padding-bottom: 50px;
 }
@@ -379,6 +431,727 @@ a:active {
 
 .mui-page .mui-table-view.modelList {
   margin-top: 10px;
+}
+
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before {
+  color: #20a837;
+}
+
+.mui-checkbox input[type=checkbox], .mui-radio input[type=radio] {
+  top: 6px;
+  right: 15px;
+}
+
+.titleBox {
+  margin-bottom: -5px;
+  padding: 30px 10px 0;
+}
+
+.titleBox .title {
+  margin: 0;
+  font-weight: normal;
+  color: #777777;
+}
+
+.titleBox .title i {
+  font-style: normal;
+  color: #777777;
+}
+
+.titleBox .title em {
+  color: #20a837;
+}
+
+.formBox .titleBox .title {
+  color: #777777;
+}
+
+.formBox .titleBox .title i {
+  color: #777777;
+}
+
+ul.infoList li {
+  margin: 15px 0;
+  background-color: #fff;
+  border-top: 1px solid #dddddd;
+}
+
+ul.infoList a {
+  color: #333333;
+}
+
+ul.infoList .row {
+  padding: 10px;
+  min-height: 44px;
+  position: relative;
+  border-bottom: 1px solid #dddddd;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+ul.infoList .row h5 {
+  color: #333333;
+}
+
+ul.infoList .row p {
+  color: #333333;
+}
+
+ul.infoList .row p.gray {
+  color: #777777;
+}
+
+ul.infoList .row p em {
+  color: #20a837;
+}
+
+ul.infoList .row p em.big {
+  font-size: 20px;
+}
+
+ul.infoList .row p.title {
+  font-weight: bold;
+}
+
+ul.infoList .row p.long {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  text-align: right;
+}
+
+ul.infoList .row p:first-child {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 10px;
+  min-width: 80px;
+}
+
+ul.infoList .row a.btn {
+  height: auto;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding: 0 10px;
+  white-space: nowrap;
+  color: #777777;
+  border-left: 1px solid #dddddd;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+ul.infoList .row a.btn:active {
+  background-color: #efeff4;
+}
+
+ul.infoList .row a.btn:last-child {
+  margin-right: -10px;
+}
+
+ul.infoList .row a.btn.leftBtn {
+  margin-left: -10px;
+  border-left: none;
+  color: #777777;
+}
+
+ul.infoList .row a.btn [class*="icon-"] {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+ul.infoList .row.imageText {
+  display: block;
+  padding: 10px;
+}
+
+ul.infoList .row.imageText:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+ul.infoList .row.imageText.link {
+  padding: 0;
+}
+
+ul.infoList .row.imageText.link a {
+  display: block;
+  padding: 10px;
+  color: #333333;
+}
+
+ul.infoList .row.imageText.link a:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+ul.infoList .row.imageText.link a:active {
+  background-color: #efeff4;
+}
+
+ul.infoList .row.baseline {
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+ul.infoList .row .image {
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+ul.infoList .row .image img {
+  display: block;
+  width: 75px;
+  height: 75px;
+}
+
+ul.infoList .row .text {
+  margin-left: 85px;
+}
+
+ul.infoList .row .text .title {
+  margin: 4px 0;
+}
+
+ul.infoList .row .text p {
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+ul.infoList .row .tag [class^="icon-"] {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+ul.infoList .row .tag.important {
+  color: #20a837;
+}
+
+ul.infoList .row .tag.success {
+  color: #00fa0d;
+}
+
+ul.infoList .row .tag.warning {
+  color: #fa2b00;
+}
+
+ul.infoList .row .tag.default {
+  color: #333333;
+}
+
+ul.infoList .multiRow {
+  display: block;
+}
+
+ul.infoList .multiRow .title {
+  margin-bottom: 5px;
+}
+
+ul.infoList .multiRow .row {
+  padding: 0;
+  border-bottom: none;
+}
+
+ul.infoList .gray {
+  color: #777777;
+}
+
+ul.infoList .small {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+ul.infoList .oneline {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+ul.infoList ~ .titleBox {
+  margin-top: -15px;
+}
+
+ul.formList {
+  margin: 15px 0;
+  border-top: 1px solid #dddddd;
+  background-color: #fff;
+}
+
+ul.formList li {
+  position: relative;
+  border-bottom: 1px solid #dddddd;
+}
+
+ul.formList .group {
+  min-height: 24px;
+  position: relative;
+  padding: 10px 0 10px 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+ul.formList label.title {
+  margin: 0;
+  color: #333333;
+}
+
+ul.formList label.title i {
+  font-style: normal;
+  margin-left: 5px;
+  color: #777777;
+}
+
+ul.formList label.title span.tag {
+  display: inline-block;
+  padding: 0 8px;
+  margin-left: 5px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #20a837;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+ul.formList label.title [class^="icon-"] {
+  margin-right: 10px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+ul.formList p.title {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333333;
+}
+
+ul.formList .input {
+  position: relative;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+ul.formList .input input {
+  text-align: right;
+  padding-right: 15px;
+  height: 44px;
+  color: #333333;
+}
+
+ul.formList .input input::-webkit-input-placeholder {
+  color: #777777;
+}
+
+ul.formList .input input[type="date"] {
+  direction: rtl;
+  padding-right: 35px;
+}
+
+ul.formList .input select {
+  height: 44px;
+  padding-right: 35px;
+  direction: rtl;
+  color: #333333;
+}
+
+ul.formList .input select option[disabled] {
+  display: none;
+}
+
+ul.formList .textarea {
+  padding: 10px;
+}
+
+ul.formList .textarea textarea {
+  width: 100%;
+  color: #333333;
+}
+
+ul.formList .iCheckBox p {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #777777;
+}
+
+ul.formList .iCheckBox:active {
+  background-color: #efeff4;
+}
+
+ul.formList .iCheckBox .iRadio {
+  margin-right: 10px;
+}
+
+ul.formList .switcheryBox .title {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+ul.formList .switcheryBox .switchery {
+  margin-right: 10px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+ul.formList p.text {
+  text-align: right;
+  padding-right: 10px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #333333;
+}
+
+ul.formList p.text .tag {
+  display: inline-block;
+  font-size: 14px;
+  color: #1b1b1b;
+  padding: 2px 8px;
+  background-color: #20a837;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+ul.formList a.link {
+  display: block;
+  color: #333333;
+}
+
+ul.formList a.link:active .group {
+  background-color: #efeff4;
+}
+
+ul.formList a.btn {
+  height: auto;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding: 0 10px;
+  white-space: nowrap;
+  color: #777777;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-left: 1px solid #dddddd;
+}
+
+ul.formList a.btn:active {
+  background-color: #efeff4;
+}
+
+ul.formList a.btn [class*="icon-"] {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+ul.formList .high {
+  display: block;
+}
+
+ul.formList .high .title {
+  display: block;
+  margin-left: 0;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+ul.formList .high p {
+  line-height: 1.4;
+}
+
+ul.formList .imageText {
+  display: block;
+  padding: 10px;
+}
+
+ul.formList .imageText:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+ul.formList .imageText.link {
+  padding: 0;
+}
+
+ul.formList .imageText.link a {
+  display: block;
+  padding: 10px;
+}
+
+ul.formList .imageText.link a:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+ul.formList .imageText.link a:active {
+  background-color: #efeff4;
+}
+
+ul.formList .imageText .image {
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+ul.formList .imageText .image img {
+  display: block;
+  width: 75px;
+  height: 75px;
+}
+
+ul.formList .imageText .text {
+  margin-left: 85px;
+}
+
+ul.formList .imageText .text .title {
+  margin: 4px 0;
+  color: #777777;
+}
+
+ul.formList .imageText .text p {
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+ul.formList .cartCheck {
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  font-size: 14px;
+  padding-left: 0;
+}
+
+ul.formList .cartCheck .checkLabel {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #777777;
+  border-left: 1px solid #dddddd;
+}
+
+ul.formList .cartCheck .checkLabel:active {
+  background-color: #efeff4;
+}
+
+ul.formList .cartCheck .iCheck {
+  margin: 10px;
+}
+
+ul.formList .cartCheck:active {
+  background-color: transparent;
+}
+
+ul.formList .cartCheck p {
+  margin: 0 10px;
+  line-height: 24px;
+}
+
+ul.formList .cartCheck a.btn {
+  border-left: none;
+  border-right: 1px solid #dddddd;
+}
+
+ul.formList .ranking {
+  height: 60px;
+}
+
+ul.formList .ranking .column {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+ul.formList .ranking .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 35px;
+}
+
+ul.formList .ranking .row p:first-child {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+ul.formList em {
+  color: #20a837;
+}
+
+ul.formList em.big {
+  font-size: 20px;
+}
+
+ul.formList .baseline {
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+ul.formList .oneline {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+ul.formList .gray {
+  color: #777777;
+}
+
+ul.formList .small {
+  font-size: 14px;
+}
+
+ul.formList .icon-arrow-right:before {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -8px;
+  color: #20a837;
+}
+
+ul.formList .icon-arrow-right.high,
+ul.formList .icon-arrow-right .text {
+  padding-right: 35px;
+}
+
+ul.formList ~ .titleBox {
+  margin-top: -15px;
+}
+
+.buttonBox {
+  margin-top: 25px;
+  padding: 0 5px 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.buttonBox a,
+.buttonBox button,
+.buttonBox input {
+  line-height: 30px;
+  margin: 0 5px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  background-color: #20a837;
+  font-size: 18px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.buttonBox a:active,
+.buttonBox button:active,
+.buttonBox input:active {
+  background-color: #187d29;
+}
+
+.buttonBox a.gray,
+.buttonBox button.gray,
+.buttonBox input.gray {
+  color: #333333;
+  background-color: #dddddd;
+}
+
+.buttonBox a.gray:active,
+.buttonBox button.gray:active,
+.buttonBox input.gray:active {
+  background-color: #d0d0d0;
+}
+
+.buttonBox.small {
+  display: block;
+  margin-top: 15px;
+  text-align: right;
+  padding: 0 10px 15px;
+}
+
+.buttonBox.small a,
+.buttonBox.small button,
+.buttonBox.small input {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  font-size: 16px;
+  padding: 0 25px;
+  line-height: 35px;
+}
+
+.switcheryBox {
+  padding-right: 15px !important;
+}
+
+.mui-switch.mui-active {
+  border-color: #20a837;
+  background-color: #20a837;
 }
 
 .mui-views,
