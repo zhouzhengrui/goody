@@ -1,127 +1,120 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-        <title>购物车</title>
-        <link rel="stylesheet" href="css/mui.min.css" />
-        <link rel="stylesheet" href="css/app.css" />
-        <link rel="stylesheet" href="css/style.min.css" /> </head>
-    <body>
-        <!-- header start -->
-        <header class="mui-bar mui-bar-nav">
-            <a class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left">
-                <span class="mui-icon mui-icon-left-nav"></span>返回</a>
-            <h1 class="mui-title">购物车</h1>
-        </header>
-        <!-- header over -->
-        <!-- tabbar start -->
-        <nav class="mui-bar mui-bar-tab">
-            <!-- 按钮当前样式mui-active要控制一下 -->
-            <a class="mui-tab-item tabbar mui-active" id="home">
-                <span class="mui-icon icon-home"></span>
-                <span class="mui-tab-label">首页</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="product">
-                <span class="mui-icon icon-cubes"></span>
-                <span class="mui-tab-label">产品中心</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="cart">
-                <span class="mui-icon icon-basket">
-                    <span class="mui-badge">9</span>
-                </span>
-                <span class="mui-tab-label">购物车</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="order">
-                <span class="mui-icon icon-paste"></span>
-                <span class="mui-tab-label">我的订单</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="manage">
-                <span class="mui-icon icon-user"></span>
-                <span class="mui-tab-label">账号管理</span>
-            </a>
-        </nav>
-        <!-- tabbar over -->
-        <!-- main start -->
-        <div class="mui-content">
-            <!-- list start -->
-            <ul class="mui-table-view">
-                <li class="mui-table-view-cell mui-media">
-                    <div class="mui-slider-right mui-disabled">
-                        <a class="mui-btn mui-btn-red">删除</a>
-                    </div>
-                    <div class="mui-slider-handle">
-                        <img class="mui-media-object mui-pull-left" src="img/img01.jpg">
-                        <div class="mui-media-body"> 米灰色45°弯头, 左划删除
-                            <p class='mui-ellipsis'>Φ20,(0.015kg)</p>
-                            <p class='mui-ellipsis'>
-                                <b class="price">合计:￥88.0</b>
-                                <b>￥88.0/个</b>
-                            </p>
-                        </div>
-                        <div class="mui-numbox">
-                            <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-                            <input class="mui-input-numbox" type="number" />
-                            <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-                        </div>
-                    </div>
-                </li>
-                <li class="mui-table-view-cell mui-media">
-                    <div class="mui-slider-right mui-disabled">
-                        <a class="mui-btn mui-btn-red">删除</a>
-                    </div>
-                    <div class="mui-slider-handle">
-                        <img class="mui-media-object mui-pull-left" src="img/img02.jpg">
-                        <div class="mui-media-body"> 米灰色等径三通
-                            <p class='mui-ellipsis'>Φ20,(0.015kg)</p>
-                            <p class='mui-ellipsis'>
-                                <b class="price">合计:￥88.0</b>
-                                <b>￥88.0/个</b>
-                            </p>
-                        </div>
-                        <div class="mui-numbox">
-                            <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-                            <input class="mui-input-numbox" type="number" />
-                            <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-                        </div>
-                    </div>
-                </li>
-                <li class="mui-table-view-cell mui-media">
-                    <div class="mui-slider-right mui-disabled">
-                        <a class="mui-btn mui-btn-red">删除</a>
-                    </div>
-                    <div class="mui-slider-handle">
-                        <img class="mui-media-object mui-pull-left" src="img/img03.jpg">
-                        <div class="mui-media-body"> 米灰色内螺纹活接
-                            <p class='mui-ellipsis'>Φ20,(0.015kg)</p>
-                            <p class='mui-ellipsis'>
-                                <b class="price">合计:￥88.0</b>
-                                <b>￥88.0/个</b>
-                            </p>
-                        </div>
-                        <div class="mui-numbox">
-                            <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-                            <input class="mui-input-numbox" type="number" />
-                            <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <!-- list over -->
-        </div>
-        <!-- main over -->
-        <!-- cart start -->
-        <nav class="mui-bar mui-bar-tab cartBar">
-            <div class="mui-tab-item total">总计: ￥888.0</div>
-            <div class="mui-tab-item number">商品: 3件</div>
-            <div class="mui-tab-item ">
-                <a class="button" href="#">
-                    <span class="mui-tab-label">去结算</span>
-                </a>
-            </div>
-        </nav>
-        <!-- cart over -->
-        <script src="js/mui/mui.min.js"></script>
-        <script src="js/tabbar.js"></script>
-    </body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>购物车</title>
+	<link rel="stylesheet" href="css/mui.min.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<link rel="stylesheet" href="css/style.min.css" />
+</head>
+<body>
+	<!-- header start -->
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left"><span class="mui-icon mui-icon-left-nav"></span>返回</a>
+		<h1 class="mui-title">购物车</h1>
+	</header>
+	<!-- header over -->
+	<!-- tabbar start -->
+	<nav class="mui-bar mui-bar-tab">
+	    <!-- 按钮当前样式mui-active要控制一下 -->
+	    <a class="mui-tab-item tabbar mui-active" id="home">
+	        <span class="mui-icon icon-home"></span>
+	        <span class="mui-tab-label">首页</span>
+	    </a>
+	    <a class="mui-tab-item tabbar" id="product">
+	        <span class="mui-icon icon-cubes"></span>
+	        <span class="mui-tab-label">产品中心</span>
+	    </a>
+	    <a class="mui-tab-item tabbar" id="cart">
+	        <span class="mui-icon icon-basket"><span class="mui-badge">9</span></span>
+	        <span class="mui-tab-label">购物车</span>
+	    </a>
+	    <a class="mui-tab-item tabbar" id="order">
+	        <span class="mui-icon icon-paste"></span>
+	        <span class="mui-tab-label">我的订单</span>
+	    </a>
+	    <a class="mui-tab-item tabbar" id="manage">
+	        <span class="mui-icon icon-user"></span>
+	        <span class="mui-tab-label">账号管理</span>
+	    </a>
+	</nav>
+
+	<!-- tabbar over -->
+	<!-- main start -->
+	<div class="mui-content">
+		<!-- list start -->
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell mui-media">
+				<div class="mui-slider-right mui-disabled">
+					<a class="mui-btn mui-btn-red">删除</a>
+				</div>
+				<div class="mui-slider-handle">
+					<img class="mui-media-object mui-pull-left" src="img/img01.jpg">
+					<div class="mui-media-body">
+						米灰色45°弯头, 左划删除
+						<p class='mui-ellipsis'>Φ20,(0.015kg)</p>
+						<p class='mui-ellipsis'><b class="price">合计:￥88.0</b><b>￥88.0/个</b></p>
+					</div>
+					<div class="mui-numbox">
+						<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+						<input class="mui-input-numbox" type="number" />
+						<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+					</div>
+				</div>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<div class="mui-slider-right mui-disabled">
+					<a class="mui-btn mui-btn-red">删除</a>
+				</div>
+				<div class="mui-slider-handle">
+					<img class="mui-media-object mui-pull-left" src="img/img02.jpg">
+					<div class="mui-media-body">
+						米灰色等径三通
+						<p class='mui-ellipsis'>Φ20,(0.015kg)</p>
+						<p class='mui-ellipsis'><b class="price">合计:￥88.0</b><b>￥88.0/个</b></p>
+					</div>
+					<div class="mui-numbox">
+						<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+						<input class="mui-input-numbox" type="number" />
+						<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+					</div>
+				</div>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<div class="mui-slider-right mui-disabled">
+					<a class="mui-btn mui-btn-red">删除</a>
+				</div>
+				<div class="mui-slider-handle">
+					<img class="mui-media-object mui-pull-left" src="img/img03.jpg">
+					<div class="mui-media-body">
+						米灰色内螺纹活接
+						<p class='mui-ellipsis'>Φ20,(0.015kg)</p>
+						<p class='mui-ellipsis'><b class="price">合计:￥88.0</b><b>￥88.0/个</b></p>
+					</div>
+					<div class="mui-numbox">
+						<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+						<input class="mui-input-numbox" type="number" />
+						<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<!-- list over -->
+	</div>
+	<!-- main over -->
+	<!-- cart start -->
+	<nav class="mui-bar mui-bar-tab cartBar">
+		<div class="mui-tab-item total">总计: ￥888.0</div>
+		<div class="mui-tab-item number">商品: 3件</div>
+	    <div class="mui-tab-item ">
+			<a class="button" href="#">
+				<span class="mui-tab-label">去结算</span>
+			</a>
+	    </div>
+	</nav>
+	<!-- cart over -->
+	<script src="js/mui/mui.min.js"></script>
+	<script src="js/tabbar.js"></script>
+</body>
 </html>

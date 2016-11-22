@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="white">
-        <title>产品中心</title>
-        <link rel="stylesheet" href="css/mui.min.css" />
-        <link rel="stylesheet" href="css/style.min.css" /> </head>
-    <body>
-        <!-- tabbar start -->
-        <nav class="mui-bar mui-bar-tab">
-            <!-- 按钮当前样式mui-active要控制一下 -->
-            <a class="mui-tab-item tabbar mui-active" id="home">
-                <span class="mui-icon icon-home"></span>
-                <span class="mui-tab-label">首页</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="product">
-                <span class="mui-icon icon-cubes"></span>
-                <span class="mui-tab-label">产品中心</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="cart">
-                <span class="mui-icon icon-basket">
-                    <span class="mui-badge">9</span>
-                </span>
-                <span class="mui-tab-label">购物车</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="order">
-                <span class="mui-icon icon-paste"></span>
-                <span class="mui-tab-label">我的订单</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="manage">
-                <span class="mui-icon icon-user"></span>
-                <span class="mui-tab-label">账号管理</span>
-            </a>
-        </nav>
-        <!-- tabbar over -->
-        <script src="js/mui/mui.min.js"></script>
-        <script src="js/tabbar.js"></script>
-        <script>
-            mui.init(
-            {
-                subpages: [
-                {
-                    url: 'module/product-list.html',
-                    id: 'product-list',
-                    styles:
-                    {
-                        top: '0',
-                        bottom: '0'
-                    }
-                }]
-            });
-        </script>
-    </body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="white">
+	<title>产品中心</title>
+	<link rel="stylesheet" href="css/mui.min.css" />
+	<link rel="stylesheet" href="css/style.min.css" />
+</head>
+<body>
+	<!-- tabbar start -->
+	<nav class="mui-bar mui-bar-tab">
+	    <!-- 按钮当前样式mui-active要控制一下 -->
+	    <a class="mui-tab-item tabbar mui-active" id="home">
+	        <span class="mui-icon icon-home"></span>
+	        <span class="mui-tab-label">首页</span>
+	    </a>
+	    <a class="mui-tab-item tabbar" id="product">
+	        <span class="mui-icon icon-cubes"></span>
+	        <span class="mui-tab-label">产品中心</span>
+	    </a>
+	    <a class="mui-tab-item tabbar" id="cart">
+	        <span class="mui-icon icon-basket"><span class="mui-badge">9</span></span>
+	        <span class="mui-tab-label">购物车</span>
+	    </a>
+	    <a class="mui-tab-item tabbar" id="order">
+	        <span class="mui-icon icon-paste"></span>
+	        <span class="mui-tab-label">我的订单</span>
+	    </a>
+	    <a class="mui-tab-item tabbar" id="manage">
+	        <span class="mui-icon icon-user"></span>
+	        <span class="mui-tab-label">账号管理</span>
+	    </a>
+	</nav>
+
+	<!-- tabbar over -->
+	<script src="js/mui/mui.min.js"></script>
+	<script src="js/tabbar.js"></script>
+	<script>
+		mui.init({
+			subpages: [{
+				url: 'module/product-list.html',
+				id: 'product-list',
+				styles: {
+					top: '0',
+					bottom: '0'
+				}
+			}]
+		});
+	</script>
+</body>
+
 </html>

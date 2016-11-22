@@ -1,127 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <title>首页</title>
-        <link rel="stylesheet" href="../css/mui.min.css" />
-        <link rel="stylesheet" href="../css/style.min.css" /> </head>
-    <body>
-        <!-- main start -->
-        <div class="mui-content tabbarPadding">
-            <!-- search start -->
-            <div class="mui-content-padded">
-                <div class="mui-input-row searchBox">
-                    <span class="mui-icon mui-icon-search"></span>
-                    <form action="">
-                        <input type="search" placeholder="请输入您需要的产品名称"> </form>
-                </div>
-            </div>
-            <!-- search over -->
-            <!-- slider start -->
-            <div id="slider" class="mui-slider">
-                <div class="mui-slider-group mui-slider-loop">
-                    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
-                    <div class="mui-slider-item mui-slider-item-duplicate">
-                        <a href="#">
-                            <img src="../img/slider03.jpg"> </a>
-                    </div>
-                    <div class="mui-slider-item">
-                        <a href="#">
-                            <img src="../img/slider01.jpg"> </a>
-                    </div>
-                    <div class="mui-slider-item">
-                        <a href="#">
-                            <img src="../img/slider02.jpg"> </a>
-                    </div>
-                    <div class="mui-slider-item">
-                        <a href="#">
-                            <img src="../img/slider03.jpg"> </a>
-                    </div>
-                    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
-                    <div class="mui-slider-item mui-slider-item-duplicate">
-                        <a href="#">
-                            <img src="../img/slider01.jpg"> </a>
-                    </div>
-                </div>
-                <div class="mui-slider-indicator">
-                    <div class="mui-indicator mui-active"></div>
-                    <div class="mui-indicator"></div>
-                    <div class="mui-indicator"></div>
-                </div>
-            </div>
-            <!-- slider over -->
-            <!-- activity start -->
-            <div class="mui-content-padded activityBox">
-                <a href="#">
-                    <img src="../img/activity.jpg" alt=""> </a>
-            </div>
-            <!-- activity over -->
-            <!-- list start -->
-            <div class="title">
-                <span class="mui-icon icon-thumbs-up-alt"></span>热销产品</div>
-            <ul class="mui-table-view">
-                <li class="mui-table-view-cell mui-media">
-                    <a href="javascript:;">
-                        <!-- 产品列表缩略图尺寸80px*80px -->
-                        <img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
-                        <div class="mui-media-body"> 米灰色45°弯头
-                            <p class='mui-ellipsis'>Φ20,(0.015kg)</p>
-                            <p class='mui-ellipsis'>
-                                <b class="price">￥88.0/个</b>
-                                <b class="lineThrough">188.0</b>
-                            </p>
-                        </div>
-                    </a>
-                    <div class="mui-numbox">
-                        <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-                        <input class="mui-input-numbox" type="number" />
-                        <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-                    </div>
-                </li>
-                <li class="mui-table-view-cell mui-media">
-                    <a href="javascript:;">
-                        <img class="mui-media-object mui-pull-left" src="../img/img02.jpg">
-                        <div class="mui-media-body"> 米灰色等径三通
-                            <p class='mui-ellipsis'>Φ20(0.026kg)</p>
-                            <p class='mui-ellipsis'>
-                                <b class="price">￥18.0/个</b>
-                                <b class="lineThrough">28.0</b>
-                            </p>
-                        </div>
-                        <div class="mui-numbox">
-                            <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-                            <input class="mui-input-numbox" type="number" />
-                            <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-                        </div>
-                    </a>
-                </li>
-                <li class="mui-table-view-cell mui-media">
-                    <a href="javascript:;">
-                        <img class="mui-media-object mui-pull-left" src="../img/img03.jpg">
-                        <div class="mui-media-body"> 米灰色内螺纹活接
-                            <p class='mui-ellipsis'>Φ20×1/2",(0.116kg)</p>
-                            <p class='mui-ellipsis'>
-                                <b class="price">￥10.0/个</b>
-                                <b class="lineThrough">12.5</b>
-                            </p>
-                        </div>
-                    </a>
-                    <div class="mui-numbox">
-                        <button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
-                        <input class="mui-input-numbox" type="number" />
-                        <button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
-                    </div>
-                </li>
-            </ul>
-            <!-- list over -->
-        </div>
-        <!-- main over -->
-        <script src="../js/mui/mui.min.js"></script>
-        <script type="text/javascript">
-            mui.init();
-        </script>
-    </body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>首页</title>
+	<link rel="stylesheet" href="../css/mui.min.css" />
+	<link rel="stylesheet" href="../css/style.min.css" />
+</head>
+
+<body>
+	<!-- main start -->
+	<div class="mui-content tabbarPadding">
+		<!-- search start -->
+		<div class="mui-content-padded">
+			<div class="mui-input-row searchBox">
+				<span class="mui-icon mui-icon-search"></span>
+				<form action="">
+					<input type="search" placeholder="请输入您需要的产品名称">
+				</form>
+			</div>
+		</div>
+		<!-- search over -->
+		<!-- slider start -->
+		<div id="slider" class="mui-slider">
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="../img/slider03.jpg">
+					</a>
+				</div>
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../img/slider01.jpg">
+					</a>
+				</div>
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../img/slider02.jpg">
+					</a>
+				</div>
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="../img/slider03.jpg">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="../img/slider01.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<!-- slider over -->
+		<!-- activity start -->
+		<div class="mui-content-padded activityBox">
+			<a href="#">
+				<img src="../img/activity.jpg" alt="">
+			</a>
+		</div>
+		<!-- activity over -->
+		<!-- list start -->
+		<div class="title"><span class="mui-icon icon-thumbs-up-alt"></span>热销产品</div>
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<!-- 产品列表缩略图尺寸80px*80px -->
+					<img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
+					<div class="mui-media-body">
+						米灰色45°弯头
+						<p class='mui-ellipsis'>Φ20,(0.015kg)</p>
+						<p class='mui-ellipsis'><b class="price">￥88.0/个</b><b class="lineThrough">188.0</b></p>
+					</div>
+				</a>
+				<div class="mui-numbox">
+					<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+					<input class="mui-input-numbox" type="number" />
+					<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+				</div>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<img class="mui-media-object mui-pull-left" src="../img/img02.jpg">
+					<div class="mui-media-body">
+						米灰色等径三通
+						<p class='mui-ellipsis'>Φ20(0.026kg)</p>
+						<p class='mui-ellipsis'><b class="price">￥18.0/个</b><b class="lineThrough">28.0</b></p>
+					</div>
+					<div class="mui-numbox">
+						<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+						<input class="mui-input-numbox" type="number" />
+						<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+					</div>
+				</a>
+			</li>
+			<li class="mui-table-view-cell mui-media">
+				<a href="javascript:;">
+					<img class="mui-media-object mui-pull-left" src="../img/img03.jpg">
+					<div class="mui-media-body">
+						米灰色内螺纹活接
+						<p class='mui-ellipsis'>Φ20×1/2",(0.116kg)</p>
+						<p class='mui-ellipsis'><b class="price">￥10.0/个</b><b class="lineThrough">12.5</b></p>
+					</div>
+				</a>
+				<div class="mui-numbox">
+					<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+					<input class="mui-input-numbox" type="number" />
+					<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+				</div>
+			</li>
+		</ul>
+		<!-- list over -->
+	</div>
+	<!-- main over -->
+	<script src="../js/mui/mui.min.js"></script>
+	<script type="text/javascript">
+		mui.init();
+	</script>
+</body>
+
 </html>

@@ -1,112 +1,117 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-        <title>新建地址</title>
-        <link rel="stylesheet" href="css/mui.min.css" />
-        <link rel="stylesheet" href="css/app.css" />
-        <link rel="stylesheet" href="css/style.min.css" /> </head>
-    <body>
-        <!-- header start -->
-        <header class="mui-bar mui-bar-nav">
-            <a class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left">
-                <span class="mui-icon mui-icon-left-nav"></span>返回</a>
-            <h1 class="mui-title">新建收货地址</h1>
-        </header>
-        <!-- header over -->
-        <!-- tabbar start -->
-        <nav class="mui-bar mui-bar-tab">
-            <!-- 按钮当前样式mui-active要控制一下 -->
-            <a class="mui-tab-item tabbar mui-active" id="home">
-                <span class="mui-icon icon-home"></span>
-                <span class="mui-tab-label">首页</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="product">
-                <span class="mui-icon icon-cubes"></span>
-                <span class="mui-tab-label">产品中心</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="cart">
-                <span class="mui-icon icon-basket">
-                    <span class="mui-badge">9</span>
-                </span>
-                <span class="mui-tab-label">购物车</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="order">
-                <span class="mui-icon icon-paste"></span>
-                <span class="mui-tab-label">我的订单</span>
-            </a>
-            <a class="mui-tab-item tabbar" id="manage">
-                <span class="mui-icon icon-user"></span>
-                <span class="mui-tab-label">账号管理</span>
-            </a>
-        </nav>
-        <!-- tabbar over -->
-        <!-- main start -->
-        <div class="mui-content">
-            <!-- form start -->
-            <form class="formBox" action="">
-                <ul class="formList">
-                    <li>
-                        <div class="group">
-                            <label class="title">收货人</label>
-                            <div class="input">
-                                <input type="text" value="李先生"> </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>新建地址</title>
+    <link rel="stylesheet" href="css/mui.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left"><span class="mui-icon mui-icon-left-nav"></span>返回</a>
+        <h1 class="mui-title">新建收货地址</h1>
+    </header>
+    <!-- header over -->
+    <!-- tabbar start -->
+    <nav class="mui-bar mui-bar-tab">
+        <!-- 按钮当前样式mui-active要控制一下 -->
+        <a class="mui-tab-item tabbar mui-active" id="home">
+            <span class="mui-icon icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item tabbar" id="product">
+            <span class="mui-icon icon-cubes"></span>
+            <span class="mui-tab-label">产品中心</span>
+        </a>
+        <a class="mui-tab-item tabbar" id="cart">
+            <span class="mui-icon icon-basket"><span class="mui-badge">9</span></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-tab-item tabbar" id="order">
+            <span class="mui-icon icon-paste"></span>
+            <span class="mui-tab-label">我的订单</span>
+        </a>
+        <a class="mui-tab-item tabbar" id="manage">
+            <span class="mui-icon icon-user"></span>
+            <span class="mui-tab-label">账号管理</span>
+        </a>
+    </nav>
+
+    <!-- tabbar over -->
+    <!-- main start -->
+    <div class="mui-content">
+        <!-- form start -->
+        <form class="formBox" action="">
+            <ul class="formList">
+                <li>
+                    <div class="group">
+                        <label class="title">收货人</label>
+                        <div class="input">
+                            <input type="text" value="李先生">
                         </div>
-                    </li>
-                    <li>
-                        <div class="group">
-                            <label class="title">联系电话</label>
-                            <div class="input">
-                                <input type="tel" value="138-8888-8888"> </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="group">
+                        <label class="title">联系电话</label>
+                        <div class="input">
+                            <input type="tel" value="138-8888-8888">
                         </div>
-                    </li>
-                    <li>
-                        <div class="group">
-                            <label class="title">省份</label>
-                            <div class="input mui-navigate-right">
-                                <select>
+                    </div>
+                </li>
+                <li>
+                    <div class="group">
+                        <label class="title">省份</label>
+                        <div class="input mui-navigate-right">
+                            <select>
                                     <option value="" selected>江苏</option>
                                     <option value="">浙江</option>
                                 </select>
-                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="group">
-                            <label class="title">城市</label>
-                            <div class="input mui-navigate-right">
-                                <select>
+                    </div>
+                </li>
+                <li>
+                    <div class="group">
+                        <label class="title">城市</label>
+                        <div class="input mui-navigate-right">
+                            <select>
                                     <option value="" selected>南京</option>
                                 </select>
-                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="group">
-                            <label class="title">详细地址</label>
-                            <div class="input">
-                                <input type="text" value="浦东新区浦建路1480号"> </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="group">
+                        <label class="title">详细地址</label>
+                        <div class="input">
+                            <input type="text" value="浦东新区浦建路1480号">
                         </div>
-                    </li>
-                    <li>
-                        <div class="group switcheryBox">
-                            <label class="title">设为默认地址</label>
-                            <div class="mui-switch mui-switch-mini mui-active">
-                                <div class="mui-switch-handle"></div>
-                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="group switcheryBox">
+                        <label class="title">设为默认地址</label>
+                        <div class="mui-switch mui-switch-mini mui-active">
+                            <div class="mui-switch-handle"></div>
                         </div>
-                    </li>
-                </ul>
-                <div class="buttonBox">
-                    <button class="button gray" type="button">删除</button>
-                    <button class="button" type="button">保存并使用</button>
-                </div>
-            </form>
-            <!-- form over -->
-        </div>
-        <!-- main over -->
-        <script src="js/mui/mui.min.js"></script>
-        <script src="js/tabbar.js"></script>
-    </body>
+                    </div>
+                </li>
+            </ul>
+            <div class="buttonBox">
+                <button class="button gray" type="button">删除</button>
+                <button class="button" type="button">保存并使用</button>
+            </div>
+        </form>
+        <!-- form over -->
+    </div>
+    <!-- main over -->
+    <script src="js/mui/mui.min.js"></script>
+    <script src="js/tabbar.js"></script>
+</body>
+
 </html>

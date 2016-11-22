@@ -370,7 +370,8 @@ select {
 }
 
 .infoBox {
-  margin-bottom: 15px;
+  margin-top: 0 !important;
+  margin-bottom: 0;
 }
 
 .infoBox .title {
@@ -388,6 +389,26 @@ select {
   text-decoration: line-through;
   margin-right: 0;
   font-weight: normal;
+}
+
+ul.modelBox {
+  margin-top: 0 !important;
+}
+
+ul.modelBox li a {
+  color: #999 !important;
+}
+
+ul.modelBox li a.current {
+  color: #333333 !important;
+}
+
+ul.modelBox li span {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  color: #20a837;
+  font-size: 34px;
 }
 
 .numberBox .mui-numbox {
