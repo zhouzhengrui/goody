@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>我的代金券</title>
+    <link rel="stylesheet" href="css/mui.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left"><span class="mui-icon mui-icon-left-nav"></span>返回</a>
+        <h1 class="mui-title">我的代金券</h1>
+        <a class="mui-btn mui-btn-link mui-btn-nav mui-pull-right" style="margin-right: 2px;">确定</a>
+    </header>
+    <!-- header over -->
+    <!-- tabbar start -->
+    <nav class="mui-bar mui-bar-tab">
+        <!-- 按钮当前样式mui-active要控制一下 -->
+        <a class="mui-tab-item tabbar mui-active" id="home">
+            <span class="mui-icon icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item tabbar" id="product">
+            <span class="mui-icon icon-cubes"></span>
+            <span class="mui-tab-label">产品中心</span>
+        </a>
+        <a class="mui-tab-item tabbar" id="cart">
+            <span class="mui-icon icon-basket"><span class="mui-badge">9</span></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-tab-item tabbar" id="order">
+            <span class="mui-icon icon-paste"></span>
+            <span class="mui-tab-label">我的订单</span>
+        </a>
+        <a class="mui-tab-item tabbar" id="manage">
+            <span class="mui-icon icon-user"></span>
+            <span class="mui-tab-label">我</span>
+        </a>
+    </nav>
+
+    <!-- tabbar over -->
+    <!-- main start -->
+    <div class="mui-content">
+        <!-- coupon start -->
+        <div class="coupon-group">
+            <img class="coupon-background" src="img/coupon.png" alt="">
+            <div class="coupon-info-1">
+                <h1>￥10</h1>
+            </div>
+            <div class="coupon-info-2">
+                <p>使用条件: 无</p>
+                <p>使用期限: 2017年1月1日 - 2018年1月1日</p>
+            </div>
+            <div class="coupon-radio">
+                <input type="radio" name="radio-1" checked>
+            </div>
+        </div>
+        <!-- coupon over -->
+        <!-- coupon start -->
+        <div class="coupon-group">
+            <img class="coupon-background" src="img/coupon.png" alt="">
+            <div class="coupon-info-1">
+                <h1>￥10</h1>
+            </div>
+            <div class="coupon-info-2">
+                <p>使用条件: 无</p>
+                <p>使用期限: 2017年1月1日 - 2018年1月1日</p>
+            </div>
+            <div class="coupon-radio">
+                <input type="radio" name="radio-1">
+            </div>
+        </div>
+        <!-- coupon over -->
+        <!-- coupon start -->
+        <div class="coupon-group invalid">
+            <img class="coupon-background" src="img/coupon.png" alt="">
+            <img class="coupon-state" src="img/coupon-used.png" alt="">
+            <div class="coupon-info-1">
+                <h1>￥30</h1>
+            </div>
+            <div class="coupon-info-2">
+                <p>使用条件: 单笔订单金额达到1000元</p>
+                <p>使用期限: 2017年1月1日 - 2018年1月1日</p>
+            </div>
+        </div>
+        <!-- coupon over -->
+        <!-- coupon start -->
+        <div class="coupon-group invalid">
+            <img class="coupon-background" src="img/coupon.png" alt="">
+            <img class="coupon-state" src="img/coupon-overdue.png" alt="">
+            <div class="coupon-info-1">
+                <h1>￥30</h1>
+            </div>
+            <div class="coupon-info-2">
+                <p>使用条件: 单笔订单金额达到1000元</p>
+                <p>使用期限: 2017年1月1日 - 2018年1月1日</p>
+            </div>
+        </div>
+        <!-- coupon over -->
+    </div>
+    <!-- main over -->
+    <script src="js/mui/mui.min.js"></script>
+    <script src="js/tabbar.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        // radio
+        $('.coupon-group').on('click', function() {
+            $(this).siblings(':radio').prop('checked', false);
+            $(this).find(':radio').prop('checked', true);
+        });
+    </script>
+</body>
+
+</html>

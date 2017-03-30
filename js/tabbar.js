@@ -1,6 +1,6 @@
 document.getElementById('home').addEventListener('tap', function() {
     mui.openWindow({
-        url: 'index.html',
+        url: 'home.html',
         id: 'home',
 		show: {
             autoShow: true,

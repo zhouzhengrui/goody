@@ -5,11 +5,17 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="white">
-	<title>产品中心</title>
+	<title>积分商城</title>
 	<link rel="stylesheet" href="css/mui.min.css" />
 	<link rel="stylesheet" href="css/style.min.css" />
 </head>
 <body>
+	<!-- header start -->
+    <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-btn mui-btn-link mui-btn-nav mui-pull-left"><span class="mui-icon mui-icon-left-nav"></span>返回</a>
+        <h1 class="mui-title">积分商城</h1>
+    </header>
+    <!-- header over -->
 	<!-- tabbar start -->
 	<nav class="mui-bar mui-bar-tab">
 	    <!-- 按钮当前样式mui-active要控制一下 -->
@@ -36,19 +42,37 @@
 	</nav>
 
 	<!-- tabbar over -->
+	<!-- list start -->
+	<div id="productList" class="mui-content mui-scroll-wrapper productList">
+		<div class="mui-scroll">
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a href="score-page.html">
+						<img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
+						<div class="mui-media-body">
+							米灰色45°弯头
+							<p class='mui-ellipsis'>Φ20,(0.015kg)</p>
+							<p class='mui-ellipsis'><b class="price">99积分/个</b></p>
+						</div>
+					</a>
+				<li class="mui-table-view-cell mui-media">
+					<a href="score-page.html">
+						<img class="mui-media-object mui-pull-left" src="../img/img01.jpg">
+						<div class="mui-media-body">
+							米灰色45°弯头
+							<p class='mui-ellipsis'>Φ20,(0.015kg)</p>
+							<p class='mui-ellipsis'><b class="price">99积分/个</b></p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- list over -->
 	<script src="js/mui/mui.min.js"></script>
 	<script src="js/tabbar.js"></script>
 	<script>
-		mui.init({
-			subpages: [{
-				url: 'module/product-list.html',
-				id: 'product-list',
-				styles: {
-					top: '0',
-					bottom: '0'
-				}
-			}]
-		});
+		mui.init();
 	</script>
 </body>
 

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>门店列表</title>
+    <link rel="stylesheet" href="css/mui.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+    <!-- main start -->
+    <div class="mui-content">
+        <!-- list start -->
+        <ul class="mui-table-view orderList">
+            <!-- group start -->
+            <div class="mui-card">
+            	<div class="mui-card-header">顾地管业花山店</div>
+            	<div class="mui-card-content">
+                    <img src="http://img.la/375x200" alt="">
+                </div>
+                <div class="mui-card-footer">
+    				<a class="mui-card-link" href="store-info.html">门店信息</a>
+    				<a class="mui-card-link" href="#">选择门店</a>
+    			</div>
+            </div>
+            <!-- group over -->
+            <!-- group start -->
+            <div class="mui-card">
+            	<div class="mui-card-header">顾地管业花山店</div>
+            	<div class="mui-card-content">
+                    <img src="http://img.la/375x200" alt="">
+                </div>
+                <div class="mui-card-footer">
+    				<a class="mui-card-link" href="store-info.html">门店信息</a>
+    				<a class="mui-card-link" href="#">选择门店</a>
+    			</div>
+            </div>
+            <!-- group over -->
+            <!-- group start -->
+            <div class="mui-card">
+            	<div class="mui-card-header">顾地管业花山店</div>
+            	<div class="mui-card-content">
+                    <img src="http://img.la/375x200" alt="">
+                </div>
+                <div class="mui-card-footer">
+    				<a class="mui-card-link" href="store-info.html">门店信息</a>
+    				<a class="mui-card-link" href="#">选择门店</a>
+    			</div>
+            </div>
+            <!-- group over -->
+        </ul>
+        <!-- list over -->
+    </div>
+    <!-- main over -->
+    <script src="js/mui/mui.min.js"></script>
+    <script src="js/tabbar.js"></script>
+    <script type="text/javascript">
+
+            mui(".mui-slider-group").on('tap', '.del', function() {
+                mui.confirm("确认要删除本订单吗?", "温馨提示");
+            })
+
+    </script>
+</body>
+
+</html>

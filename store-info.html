@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>门店信息</title>
+    <link rel="stylesheet" href="css/mui.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+    <!-- main start -->
+    <div class="mui-content">
+        <!-- list start -->
+        <ul class="mui-table-view orderList">
+            <!-- group start -->
+            <div class="mui-card">
+            	<div class="mui-card-header">顾地管业花山店</div>
+            	<div class="mui-card-content">
+                    <img src="http://img.la/375x200" alt="">
+                </div>
+            	<div class="store-content">
+                    <dl>
+                        <dt>电话:</dt>
+                        <dd><a href="tel:10086">138-8888-8888</a></dd>
+                        <dt>地址:</dt>
+                        <dd>安徽省马鞍山市...</dd>
+                    </dl>
+                    <h5>主营范围:</h5>
+                    <p>产PVC-U给排水管、PVC-M高抗冲给水管、抗菌PP-R冷热水管、PP-R铝塑稳态管、PE-RT地暖管、PE给水及燃气管、PVC-C高压电力护套管、PVC-U双壁波纹管、HDPE 双壁波纹管、G-MRP系统、G-HWP系统、PHSP系统、PP-HM波纹管、G-WRP管道等</p>
+                </div>
+            </div>
+            <!-- group over -->
+        </ul>
+        <!-- list over -->
+        <div class="mui-content-padded">
+			<button class="mui-btn mui-btn-block mui-btn-primary" style="padding: 10px;">选择门店</button>
+		</div>
+    </div>
+    <!-- main over -->
+    <script src="js/mui/mui.min.js"></script>
+    <script src="js/tabbar.js"></script>
+    <script type="text/javascript">
+
+            mui(".mui-slider-group").on('tap', '.del', function() {
+                mui.confirm("确认要删除本订单吗?", "温馨提示");
+            })
+
+    </script>
+</body>
+
+</html>
