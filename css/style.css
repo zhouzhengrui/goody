@@ -1241,6 +1241,10 @@ ul.formList ~ .titleBox {
   background-color: #fff;
 }
 
+.login-logo img {
+  width: 180px;
+}
+
 .input-button {
   position: absolute;
   z-index: 2;
